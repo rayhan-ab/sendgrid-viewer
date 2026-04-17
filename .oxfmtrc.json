@@ -1,0 +1,41 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "printWidth": 140,
+  "semi": false,
+  "singleQuote": true,
+  "trailingComma": "none",
+  "bracketSpacing": true,
+  "bracketSameLine": false,
+  "arrowParens": "avoid",
+  "experimentalSortImports": {
+    "newlinesBetween": false,
+    "partitionByNewline": true
+  },
+  "experimentalSortPackageJson": true,
+  "ignorePatterns": [
+    "dist",
+    "docs",
+    "build",
+    "node_modules",
+    "README.md",
+    "index.html",
+    ".github",
+    "_misc",
+    "!deployment/DEPLOYMENT_GUIDELINE*.md",
+    "!/README.md",
+    "RELEASE-NOTES.md",
+    ".env",
+    "**/*.hbs",
+    ".yarn/**/*",
+    "deployment/**",
+    "**/deployment/**",
+    "node_modules/**",
+    "modules-sdk/**",
+    "**/contents/**",
+    "**/*.md",
+    "**/prisma/migrations/**",
+    "**/controllers/grpc/**",
+    "apps/adminportal-server-app-go/**",
+    "mockServiceWorker.js"
+  ]
+}
