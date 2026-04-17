@@ -12,6 +12,7 @@
     "@astrojs/mdx": "^5.0.3",
     "@astrojs/netlify": "^7.0.7",
     "@astrojs/react": "^5.0.3",
+    "@netlify/blobs": "^10.7.4",
     "@tailwindcss/vite": "^4.1.18",
     "@types/canvas-confetti": "^1.9.0",
     "@types/react": "^19.2.14",
